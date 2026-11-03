@@ -1,5 +1,18 @@
-
-todo_venv/
+# Python/Django 缓存文件
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+todo_venv/
 .env
+
+# 数据库
+db.sqlite3
+
+# Mac系统自动生成的文件
+.DS_Store
+
+# 编辑器配置
+.idea/
+.vscode/
